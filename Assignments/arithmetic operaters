@@ -1,0 +1,11 @@
+#4.Pythonoperaters.py
+#1.Arithmetic Operaters
+a=40
+b=60
+print('Addition(a+b):',a+b)#Addition(a+b): 100
+print('Subtraction(a-b):',a-b)#Subtraction(a-b): -20
+print('Multiplication(a*b):',a*b)#Multiplication(a*b): 2400
+print('Division(a/b):',a/b)#Division(a/b): 0.6666666666666666
+print('Floor Division(a//b):',a//b)#Floor Division(a//b): 0
+print('Modulus(a%b):',a%b)#Modulus(a%b): 40
+print('Exponentiation(a**b):',a**b)#Exponentiation(a**b): 13292279957849158729038070602803445760000000000000000000000000000000000000
