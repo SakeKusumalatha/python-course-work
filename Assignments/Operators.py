@@ -75,3 +75,22 @@ D={'Name':'Kusuma','course':'MCA','Roll no':'39'}
 print('Name' in D)#True
 print('Kusuma' in D)#False
 print('course' in D)#True
+
+#6.Identify operator
+a={2,4,6,8,10}
+b={2,4,6,8,10}
+a==b
+print(a is b)#False
+print(b is a)#False
+print(b is not a)##True
+print(a is not b)##True
+
+#7.Bitwise operator
+x=5
+y=3
+print(x & y)#And=1
+print(x | y)#Or=7
+print(x ^ y)#Xor=6
+print(~x)#Not=-6
+print(x << 1)#Left shift=10
+print(x>>1)#Right shift=2
