@@ -140,7 +140,18 @@ l=[3,66,44,76,24,100,198]
 print(min(l)) #3
 #max
 print(max(l)) #198
-
+#Sum
+l=[2,4,6,8,10]
+print(sum(l)) #30
+#Len
+l=[1,2,3,4,5,6,7,8]
+print(len(l)) #8
+#Any
+l=[1,2,3,4,5,6,7]
+print(any(l)) #True
+#All
+l=[1,2,3,4,5,6,7]
+print(all(l)) #True
 
 
 
