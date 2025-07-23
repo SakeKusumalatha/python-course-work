@@ -39,28 +39,28 @@ print("\nTheater Details: Name - {}, Location - {}, Contact - {}".format(
 
 #INPUT DETAILS :
 
-Enter Movie ID: 2026
-Enter Movie Name: Salaar
-Enter Ticket Price: 200.0
-Enter Categories (comma-separated): Action,Thriller
-Enter Available Seats: 150
-Enter Booked Seats: 50
-Enter GST Percentage: 20.0
-Enter Features (comma-separated): 4K,Dobly Atmos
-Enter Theater Name: PVR cinemas
-Enter Theater Location: Hyderabad
-Enter Theater Contact Number: 8106354715
+#Enter Movie ID: 2026
+#Enter Movie Name: Salaar
+#Enter Ticket Price: 200.0
+#Enter Categories (comma-separated): Action,Thriller
+#Enter Available Seats: 150
+#Enter Booked Seats: 50
+#Enter GST Percentage: 20.0
+#Enter Features (comma-separated): 4K,Dobly Atmos
+#Enter Theater Name: PVR cinemas
+#Enter Theater Location: Hyderabad
+#Enter Theater Contact Number: 8106354715
 
 #OUTPUT:
---- Booking Summary ---
-Movie ID, Name, Price:,2026,Salaar,200.0
-GST Applied: 20.00%
+#--- Booking Summary ---
+#Movie ID, Name, Price:,2026,Salaar,200.0
+#GST Applied: 20.00%
 
-Movie Name: Salaar
-Ticket Price: ₹200.0
-Seats Available: 150
-Seats Booked: 50
-Categories: Action, Thriller
-Features: 4K, Dobly Atmos
+#Movie Name: Salaar
+#Ticket Price: ₹200.0
+#Seats Available: 150
+#Seats Booked: 50
+#Categories: Action, Thriller
+#Features: 4K, Dobly Atmos
 
-Theater Details: Name - PVR cinemas, Location - Hyderabad, Contact - 8106354715
+#Theater Details: Name - PVR cinemas, Location - Hyderabad, Contact - 8106354715
