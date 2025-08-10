@@ -1,4 +1,4 @@
-'''#3.Python
+#3.Python
 #1.Add Two Numbers
 
 def add_number(a,b):
@@ -249,7 +249,7 @@ print("Even numbers:",end=" ")
 num = even_number(even)
 
 #Enter a number:10
-#Even numbers: 0 2 4 6 8 10 ''' 
+#Even numbers: 0 2 4 6 8 10 
 
 
 #30. Return List of Squares
