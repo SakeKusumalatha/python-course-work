@@ -1,4 +1,4 @@
-#3.Python
+'''#3.Python
 #1.Add Two Numbers
 
 def add_number(a,b):
@@ -115,8 +115,8 @@ print("Sorted list:",sorted)
 def clear_list(lst):
     lst.clear()
     return lst
-input_list =input("Enter list elements:")
-list = list(map(int,input_list.split()))
+input_list = input("Enter list elements:")
+list =list(map(int,input_list.split()))
 cleared = clear_list(list)
 print("Cleared list:",cleared)
 #Enter list elements:1 2 3
@@ -144,15 +144,19 @@ def remove_list(lst,value):
         print(f"Element{value} is not found in the list")
     return lst
 input_list = input("Enter list elements:")
-lst = list(map(int,input_list.split()))
+list = list(map(int,input_list.split()))
 value = int(input("Enter element to remove:"))
-update = remove_list(lst,value)
+update = remove_list(list,value)
 print("Updated list:",update)
 #Enter list elements:1 2 3 4
 #Enter element to remove:4
 #Updated list: [1, 2, 3]
 
 #15.Add Key to Dictionary
+def add_key_dict(d, key, val):
+    d[key] = val
+    return d
+
 #16.Factorial of a Number
 def factorial(n):
     fact = 1
@@ -210,18 +214,18 @@ print("Maximum:",number)
 #26. Sort a List Using sorted()
 def sort_number(n):
     return sorted(n)
-lst = list(map(int,input("Enter list element:").split()))
-element = sort_number(lst)
+list = list(map(int,input("Enter list element:").split()))
+element = sort_number(list)
 print("sorted list:",element)
 
 #Enter list element:3 1 4
-#sorted list: [1, 3, 4]
+#sorted list: [1, 3, 4] 
 
 #27. Sum of Elements Using sum()
 def sum_element(n):
     return sum(n)
-lst = list(map(int,input("Enter list elements:").split()))
-element = sum_element(lst)
+list = map(int,input("Enter list elements:").split())
+element = sum_element(list)
 print("sum of list is:",element)
 
 #Enter list elements:4 5 6
@@ -245,13 +249,13 @@ print("Even numbers:",end=" ")
 num = even_number(even)
 
 #Enter a number:10
-#Even numbers: 0 2 4 6 8 10  
+#Even numbers: 0 2 4 6 8 10 ''' 
 
 
 #30. Return List of Squares
 def list_squares(n):
     return [x**2 for x in n]
-lst = list(map(int,input("Enter list elements:").split()))
+lst =map(int,input("Enter list elements:").split())
 elements = list_squares(lst)
 print("Squared list",elements)
 
@@ -285,3 +289,42 @@ vowel_count = count_vowels(text)
 print("Number of vowels:", vowel_count)
 #Enter a string: EDUCATION
 #Number of vowels: 5
+
+# 33. Multiply by 2 Using Lambda
+multiply_by_2 = lambda x: x * 2
+
+# 34. Square List Using map() and Lambda
+def square_list_map(lst):
+    return list(map(lambda x: x ** 2, lst))
+
+# 35. Filter Even Numbers Using filter() and Lambda
+def filter_even(lst):
+    return list(filter(lambda x: x % 2 == 0, lst))
+
+# 36. Sort Tuples by Second Value Using Lambda
+def sort_tuples(lst):
+    return sorted(lst, key=lambda x: x[1])
+
+# 37. Access Global Variable Inside Function
+global_var = "Hello"
+def access_global():
+    return f"Global variable value is: {global_var}"
+
+# 38. Modify Global Variable Inside Function
+modified_global_var = "Hello"
+def modify_global():
+    global modified_global_var
+    modified_global_var = "Changed"
+    return f"Modified global variable is: {modified_global_var}"
+
+# 39. Use Local Variable with Same Name as Global
+var_name = "Global"
+def local_same_name():
+    var_name = "Local"
+    return f"Inside function: {var_name}", f"Outside function: {globals()['var_name']}"
+
+# 40. Compare Global and Local Variables
+x = 10
+def compare_global_local():
+    x = 20
+    return f"Global x: {globals()['x']}", f"Local x: {x}"
