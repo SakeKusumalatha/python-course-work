@@ -1,5 +1,6 @@
 #BUILT IN MODULES:
 
+#SYS-Modules
 #1.
 import sys
 print(sys.argv)
@@ -19,8 +20,7 @@ print(sys.path)
 import sys
 
 print(sys.version)
-#Output:
-3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+#Output:3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
 
 #4.
 import sys
@@ -28,10 +28,10 @@ import sys
 print("Befor exit")
 print(sys.exit())
 print("After exit")
-#Output:
-3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+#Output:3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
 
-#Platform:
+#Platform Modules:
+
 import platform
 
 print(platform.system())#Windows
@@ -39,7 +39,8 @@ print(platform.release())#11
 print(platform.processor())#AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
 
 
-#Math Modules
+#Math Modules:
+
 import math
 
 print(math.pi)#3.141592653589793
@@ -75,7 +76,8 @@ print(math.tan(45))#1.6197751905438615
 print(math.degrees(45))#2578.3100780887044
 print(math.radians(45))#0.7853981633974483
 
-#
+#random Modules:
+
 import random
 random.seed(10)
 print(random.random())#0.5714025946899135
@@ -89,7 +91,8 @@ random.shuffle(l)
 print(l)#['megana', 'swathi', 'kusuma', 'sowmya', 'revathi']
 
 
-#
+#itertools:
+
 from itertools import combinations,permutations
 
 s='kusuma'
