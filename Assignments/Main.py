@@ -1,4 +1,5 @@
 # main.py
+from my_programs import *
 import my_programs as mp
 
 def menu():
